@@ -2800,8 +2800,8 @@ MonoBehaviour:
   overwrite: 0
   blender: 0
   capturing: 0
-  enforceHumanoidBones: 1
-  renameBones: 1
+  enforceHumanoidBones: 0
+  renameBones: 0
   catchUp: 1
   scripted: 0
   targetAvatar: {fileID: 3166231813841605145}

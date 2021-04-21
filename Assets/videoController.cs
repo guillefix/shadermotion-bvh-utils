@@ -32,6 +32,7 @@ public class videoController : MonoBehaviour
         videoPlayer.url = video_path;
         videoPlayer.Play();
         bvhRecorder.capturing = true;
+        bvhRecorder.directory = Path.GetDirectoryName(video_path);
         bvhRecorderComponent.has_begun_playing = true;
     }
 
